@@ -1,13 +1,14 @@
 #include <stdio.h>
+#include <unistd.h>
 
 /**
  * main-prints the alphabet in lowercase, and then in uppercase
  * Description:using main function
- * this program prints the alphabet in lowercase, and then in uppercase, followed by a new line.
+ * this program prints the alphabet in lowercase,
+ * and then in uppercase, followed by a new line.
  * Return:0
  */
 
-/* betty style doc for function main goes there */
 int main(void)
 {
 	int ch;
