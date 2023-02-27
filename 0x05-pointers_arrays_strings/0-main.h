@@ -1,12 +1,12 @@
 #include <stdio.h>
 
+void reset_to_98(int *n);
+
 /**
  * main - check the code for 0-reset_to_98.c function.
  *
  * Return: Always 0.
  */
-
-void reset_to_98(int *n);
 
 int main (void)
 {
