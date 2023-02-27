@@ -1,20 +1,8 @@
+#ifndef MAIN_H
+#define MAIN_H
+
 #include <stdio.h>
 
 void reset_to_98(int *n);
 
-/**
- * main - check the code for 0-reset_to_98.c function.
- *
- * Return: Always 0.
- */
-
-int main (void)
-{
-	int n;
-	
-	n = 402;
-	printf("n=%d\n", n);
-	reset_to_98(&n);
-	printf("n=%d\n", n);
-	return (0);
-}
+#endif /* MAIN_H */
