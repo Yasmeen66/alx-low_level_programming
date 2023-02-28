@@ -13,17 +13,16 @@ void rev_string(char *s)
 	char s2[100];
 
 	len = (sizeof(s)) - 1;
-	while (len >= 0)
+	while (start <= len)
 	{
-		s2[start] = s[len];
+		s2[start] = *(s + start);
 		start++;
-		len--;
 	}
 	start = 0;
 	len = (sizeof(s)) - 1;
 	while (start <= len)
 	{
-		s[start] = s2[start];
+		*(s + start) = s2[start];
 		start++;
 	}
 }
