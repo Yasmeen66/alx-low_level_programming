@@ -3,7 +3,7 @@
 
 #include <stdio.h>
 
- size_t strlen(char *s);
+ size_t strlen(const char *s);
  void print_rev(char *s);
 
  #endif /* MAIN_H */
