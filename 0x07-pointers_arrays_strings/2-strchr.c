@@ -11,14 +11,9 @@
 
 char *_strchr(char *s, char c)
 {
-	int i;
+	char *ptr;
 
-	for (i = 0; i < (int)(sizeof(s)); i++)
-	{
-		if (s[i] == c)
-		{
-			break;
-		}
-	}
-	return (&s[i]);
+	ptr = strchr(s, c);
+
+	return (ptr);
 }

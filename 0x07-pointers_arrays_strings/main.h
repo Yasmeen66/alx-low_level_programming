@@ -12,5 +12,6 @@ void print_chessboard(char (*a)[8]);
 void print_diagsums(int *a, int size);
 char *strpbrk(const char *s, const char *accept);
 char *strstr(const char *haystack, const char *needle);
+char *strchr(const char *s, int c);
 
 #endif /* MAIN_H */
